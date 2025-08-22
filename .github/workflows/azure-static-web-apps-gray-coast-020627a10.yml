@@ -4,10 +4,10 @@ on:
   push:
     branches:
       - main
-  pull_request:
-    types: [opened, synchronize, reopened, closed]
-    branches:
-      - main
+  #pull_request: (Commented line 7 through 10 out per instructions: https://docs.cipp.app/setup/self-hosting-guide/configuring-automatic-updates)
+    #types: [opened, synchronize, reopened, closed]
+    #branches:
+    #  - main
 
 jobs:
   build_and_deploy_job:
